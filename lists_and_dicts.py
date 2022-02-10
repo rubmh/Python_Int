@@ -14,9 +14,14 @@ def run():
         "integer_nums": [-1, -2, 0, 1, 2],
         "floating_nums": [1.1, 4.5, 6.43]
     }
-
+    
+    print("Esta es la impresion del super diccionario")
     for key, value in super_dict.items():
         print(key, "-", value)
+    
+    print("Esta es la impresion del super Lista")
+    for i in super_list:
+        print(i["firstname"] , "," , i["lastname"])
 
 
 if __name__ == '__main__':  
