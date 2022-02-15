@@ -1,5 +1,6 @@
 def run():
-    my_dict = {}
+    #Reducioendo codigo
+    my_dict = {i : 1**3 for i in range(1, 101) if i % 3 != 0}
     for i in range(1, 101):
         if i % 3 == 0:
             my_dict[i] = i**3
