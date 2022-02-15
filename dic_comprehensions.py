@@ -1,10 +1,6 @@
 def run():
-    #Reducioendo codigo
-    my_dict = {i : 1**3 for i in range(1, 101) if i % 3 != 0}
-    for i in range(1, 101):
-        if i % 3 == 0:
-            my_dict[i] = i**3
-
+    #Reducioendo codigo y haciendo ahora raiz cuadrada
+    my_dict = {i : i**3 for i in range(1, 101) if i % 3 != 0}
     print(my_dict)  
 
 
