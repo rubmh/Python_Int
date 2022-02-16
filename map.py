@@ -3,8 +3,8 @@ def run():
     for i in range(1, 20):
         my_list.append(i)
 
-    odd = list(filter(lambda x: x%2 != 0, my_list))
-    print(odd)
+    squares = list(map(lambda x: x**2, my_list))
+    print(squares)
 
 
 
